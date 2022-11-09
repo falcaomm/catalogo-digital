@@ -20,5 +20,6 @@
 - [ ] Menu Hamburguer;
 - [ ] Animação CSS;
 - [ ] JavaScript para interação com usuário - DOM;
+- [ ] Commits padronizados;
 
 ### 📌 [Projeto Figma](#)
