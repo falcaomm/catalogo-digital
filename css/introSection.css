@@ -1,0 +1,44 @@
+.intro-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+}
+
+.logo-intro{
+    width: 200px;
+    height: 200px;
+    padding: 30px 15px 15px;
+}
+
+.title-intro{
+    font-size: 2rem;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.text-intro{
+    font-size: 1.125rem;
+    padding: 15px 30px;
+    text-align: justify;
+}
+
+.div-icons-intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-intro-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    font-size: 3rem;
+    border-radius: 100px;
+    box-shadow: 0 2px 2px blue;
+    transition: 0.5s;
+    margin: 15px 15px 30px;
+    padding: 10px;
+}
