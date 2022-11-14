@@ -1,0 +1,9 @@
+nav {
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 10vh;
+    width: 100vw;
+    background-color: aqua;
+}

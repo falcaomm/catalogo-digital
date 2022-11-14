@@ -1,0 +1,9 @@
+.product-section {
+    background-color: antiquewhite;
+}
+
+.product-section h2{
+    font-weight: 800;
+    font-size: 1.125rem;
+    padding: 15px;
+}

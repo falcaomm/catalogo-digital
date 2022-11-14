@@ -14,42 +14,74 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/globalStyle.css" />
+    <link rel="stylesheet" href="/css/introSection.css" />
+    <link rel="stylesheet" href="/css/buttonFixed.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/cardProduct.css">
+    <link rel="stylesheet" href="/css/productSection.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    
+
     <title>Catálogo Digital</title>
 
     <script src="#" defer></script>
   </head>
 
   <body>
-    <header>
-      <img src="/media/200x200.png" alt="logo da empresa" />
-      <h1>Nome da empresa</h1>
-    </header>
-
+    <header></header>
     <nav>
-      <p></p>
+      <p>Nome da empresa</p>
       <i class="fa-solid fa-magnifying-glass"></i>
       <i class="fa-solid fa-bars"></i>
     </nav>
 
     <main>
-      <section>
-        <p>descrição do catálogo</p>
-        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <section class="intro-section">
+        <img
+          class="logo-intro"
+          src="/media/200x200.png"
+          alt="logo da empresa"
+        />
+        <h1 class="title-intro">Nome da empresa Nome da</h1>
+        <p class="text-intro">
+          descrição do catálogo com 280 carcteres no maximo orem ipsum dolor sit
+          amet consectetur adipisicing elit. Officia, eaque reprehenderit
+          reiciendis necessitatibus, laboriosam nostrum est nisi dolore, dolorum
+          doloremque suscipit praesentium. Itaque sunt odit ipsa ea qui dolor
+          alias!
+        </p>
+        <div class="div-icons-intro">
+          <a href="#" class="icon-intro-style"
+            ><i class="fa-solid fa-location-dot"></i
+          ></a>
+          <a href="#" class="icon-intro-style"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="icon-intro-style"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
       </section>
 
-      <section>
+      <section class="product-section">
         <h2>Titulo da sessão/Categoria</h2>
-        <section>
-          <h3>Nome do prouto</h3>
-          <img src="/media/100x100.png" alt="Imagem do produto" />
-          <p>Descrição do produto</p>
-          <p>Preço do Produto</p>
-        </section>
+
+          <section class="card-product">
+            <div class="product-infos">
+              <h3 class="product-name">Nome do produto</h3>
+              <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus maiores odit commodi magnam inventore repellat maxime, voluptates mollitia asperiores</p>
+              <p class="product-price">R$ 00,00</p>
+            </div>
+
+            <img src="/media/100x100.png" alt="Imagem do produto" />
+          </section>
       </section>
 
-      <button>Fazer Pedido</button>
+      <button class="button-fixed">
+        Fazer Pedido <i class="fa-brands fa-whatsapp"></i>
+      </button>
     </main>
 
     <footer>footer com github</footer>
