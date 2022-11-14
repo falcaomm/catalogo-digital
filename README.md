@@ -15,6 +15,7 @@
 
 ## 📝 Objetivos:
 - [ ] Mobile First;
+- [ ] Unidades de Medidas Relativas;
 - [ ] Design Figma;
 - [ ] Scroll;
 - [ ] Menu Hamburguer;
