@@ -1,9 +1,23 @@
 nav {
     position: fixed;
     top: 0;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    display: flex;
     height: 10vh;
     width: 100vw;
     background-color: aqua;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-name {
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 15px 0 15px 15px;
+}
+
+.nav-search,
+.nav-menu{
+    font-size: 1.5rem;
+    padding: 15px;
 }
