@@ -1,8 +1,6 @@
 const menuBtn = document.getElementById('menu-btn');
 const nav = document.getElementById('nav-menu');
 
-
-
 function openMenu(event) {
     if (event.type === 'touchstart') {
         event.preventDefault()
@@ -23,3 +21,8 @@ function openMenu(event) {
 menuBtn.addEventListener('click', openMenu)
 menuBtn.addEventListener('touchstart', openMenu)
 
+const menuLinks = document.querySelectorAll('.menu-list a[href^="#"]')
+
+menuLinks.forEach((link) => {
+    link.addEventListener("click", () => nav.classList.toggle('active'))
+});
