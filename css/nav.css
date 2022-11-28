@@ -1,23 +1,116 @@
-nav {
+header{
     position: fixed;
     top: 0;
     display: flex;
     height: 10vh;
     width: 100vw;
-    background-color: aqua;
     align-items: center;
     justify-content: end;
+    background-color: aqua;
 }
 
-.nav-name {
+.title-header{
     margin-right: auto;
     font-size: 1.5rem;
     font-weight: 800;
     padding: 15px 0 15px 15px;
 }
 
-.nav-search,
-.nav-menu{
+.menu-btn{
+    padding: 30px 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+} 
+
+.menu-bar, .menu-bar::before, .menu-bar::after{
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 26px;
+    border-radius: 20px ;
+    background-color: black;
+}
+
+.menu-bar::before{
+    content: '';
+    position: absolute;
+    background-color: currentColor;
+    width: 30px;
+    margin-left: -4px;
+    bottom: 10px;
+    transition: 0.4s;
+}
+
+.menu-bar::after{
+    content: '';
+    position: absolute;
+    background-color: currentColor;
+    width: 22px;
+    margin-left: 4px;
+    top: 10px;
+    transition: 0.4s;
+}
+
+.nav-menu.active .menu-bar{
+    background-color: transparent;
+}
+
+.nav-menu.active .menu-bar::before{
+    margin-left: 0px;
+    bottom: 0px;
+    width: 28px;
+    transform: rotate(135deg);
+}
+
+.nav-menu.active .menu-bar::after{
+    margin-left: 0;
+    top: 0px;
+    width: 28px;
+    transform: rotate(-135deg);
+}
+
+
+/* .nav-search,
+.menu-icon {
     font-size: 1.5rem;
     padding: 15px;
+} */
+
+
+.menu-list{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    top: 10vh;
+    right: 0;
+    height: 0px;
+    background-color: aquamarine;
+    z-index: 100;
+    transition: 0.4s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+.menu-item{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    width: 100vw;
+}
+
+.menu-item:hover,
+.menu-item:active{
+    background-color: beige;
+}
+
+.nav-menu.active .menu-list {
+    height: 70vh;
+    visibility: visible;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }

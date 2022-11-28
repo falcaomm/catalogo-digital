@@ -19,23 +19,39 @@
     <link rel="stylesheet" href="/css/introSection.css" />
     <link rel="stylesheet" href="/css/buttonFixed.css" />
     <link rel="stylesheet" href="/css/nav.css" />
-    <link rel="stylesheet" href="/css/cardProduct.css">
-    <link rel="stylesheet" href="/css/productSection.css">
-    <link rel="stylesheet" href="/css/menu.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    
+    <link rel="stylesheet" href="/css/cardProduct.css" />
+    <link rel="stylesheet" href="/css/productSection.css" />
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
 
     <title>Catálogo Digital</title>
 
-    <script src="#" defer></script>
+    <script src="/js/menu.js" defer></script>
   </head>
+
+  <!-- <i class="fa-solid fa-magnifying-glass nav-search"></i> -->
+  <!-- <i class="fa-solid fa-bars menu-icon"></i> -->
 
   <body>
     <header>
-      <nav>
-        <p class="nav-name">Nome da Empresa</p>
-        <i class="fa-solid fa-magnifying-glass nav-search"></i>
-        <i class="fa-solid fa-bars nav-menu"></i>
+      <h1 class="title-header">Nome da Empresa</h1>
+      <nav class="nav-menu" id="nav-menu">
+        <button class="menu-btn" aria-label="Abrir Menu" id="menu-btn" aria-haspopup="true" aria-controls="menu-list" aria-expanded="false">
+          <div class="menu-bar" id="menu-bar"></div>
+        </button>
+
+        <ul class="menu-list" id="menu-list" role="menu">
+          <li class="menu-item">categoria1</li>
+          <li class="menu-item">categoria2</li>
+          <li class="menu-item">categoria3</li>
+          <li class="menu-item">categoria4</li>
+          <li class="menu-item">categoria5</li>
+          <li class="menu-item">categoria6</li>
+          <li class="menu-item">categoria7</li>
+          <li class="menu-item">categoria8</li>
+          <li class="menu-item">categoria9</li>
+          <li class="menu-item">categoria10</li>
+        </ul>
       </nav>
     </header>
 
@@ -70,15 +86,19 @@
       <section class="product-section">
         <h2>Titulo da sessão/Categoria</h2>
 
-          <section class="card-product">
-            <div class="product-infos">
-              <h3 class="product-name">Nome do produto</h3>
-              <p class="product-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus maiores odit commodi magnam inventore repellat maxime, voluptates mollitia asperiores</p>
-              <p class="product-price">R$ 00,00</p>
-            </div>
+        <section class="card-product">
+          <div class="product-infos">
+            <h3 class="product-name">Nome do produto</h3>
+            <p class="product-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloribus maiores odit commodi magnam inventore repellat maxime,
+              voluptates mollitia asperiores
+            </p>
+            <p class="product-price">R$ 00,00</p>
+          </div>
 
-            <img src="/media/100x100.png" alt="Imagem do produto" />
-          </section>
+          <img src="/media/100x100.png" alt="Imagem do produto" />
+        </section>
       </section>
 
       <!-- <button class="button-fixed">
@@ -92,7 +112,8 @@
         <a href="#"><i class="fa-solid fa-envelope"></i> Contato</a>
       </div>
       <div class="footer-signature">
-        <p>Developed by 
+        <p>
+          Developed by
           <a href="#"><i class="fa-brands fa-github"></i> falcaomm</a>
         </p>
       </div>
