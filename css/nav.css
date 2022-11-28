@@ -86,19 +86,19 @@ header{
     right: 0;
     height: 0px;
     background-color: aquamarine;
-    z-index: 100;
     transition: 0.4s;
     visibility: hidden;
     overflow-y: hidden;
 }
 
-.menu-item{
+.menu-item a{
     border-bottom: 1px solid rgb(209, 209, 209);
     display: flex;
     justify-content: center;
     padding: 20px 0;
     font-size: 1.2rem;
     width: 100vw;
+    color: black;
 }
 
 .menu-item:hover,
@@ -107,10 +107,11 @@ header{
 }
 
 .nav-menu.active .menu-list {
-    height: 70vh;
+    height: 60vh;
     visibility: visible;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;  
+    z-index: 2;
 }
