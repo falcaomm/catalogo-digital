@@ -5,8 +5,8 @@
 <img src="#" alt="GIF de demonstração do projeto">
 </div>
 
-> Projeto em desenvolvimento de uma catálogo digital em página unica a partir de um layout autoral, sem utilização de frameworks, treinando conhecimentos de base adquiridos até o momento.
-> A ideia principal é desenvolver uma interface responsiva e algumas funcionalidades com JavaScript puro. 
+> Projeto em desenvolvimento de um catálogo digital em página unica a partir de layout autoral, sem utilização de frameworks, treinando conhecimentos de base adquiridos até o momento.
+> A ideia principal é desenvolver uma interface responsiva implementando algumas funcionalidades com JavaScript. 
 
 ## 💻 Tecnologias: 
 * HTML;
@@ -14,12 +14,10 @@
 * JavaScript.
 
 ## 📝 Objetivos:
-- [ ] Mobile First;
-- [ ] Unidades de Medidas Relativas;
-- [ ] Design Figma;
-- [ ] Scroll;
-- [ ] Menu Hamburguer;
-- [ ] Animação CSS;
-- [ ] JavaScript para interação com usuário - DOM;
+- [x] Mobile First;
+- [x] Unidades de Medidas Relativas;
+- [x] Menu Hamburguer;
+- [x] Animação CSS;
+- [x] JavaScript para interação com usuário - DOM;
+- [ ] Barra de Pesquisa;
 
-### 📌 [Projeto Figma](#)
