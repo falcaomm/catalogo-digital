@@ -4,6 +4,7 @@
     flex-direction: column;
     height: 100%;
     width: 100vw;
+    background-color: var(--light-color);
 }
 
 .logo-intro{
@@ -16,12 +17,14 @@
     font-size: 2rem;
     padding: 15px 30px;
     text-align: center;
+    color: var(--secondary-color);
 }
 
 .text-intro{
     font-size: 1.125rem;
     padding: 15px 30px;
     text-align: justify;
+    color: var(--primary-color);
 }
 
 .div-icons-intro {
@@ -37,8 +40,10 @@
     width: 45px;
     font-size: 2.8rem;
     border-radius: 100px;
-    box-shadow: 0 2px 2px blue;
+    box-shadow: 0 2px 3px var(--secondary-color);
     transition: 0.5s;
     margin: 15px 15px 30px;
     padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
 }

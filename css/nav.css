@@ -6,7 +6,10 @@ header{
     width: 100vw;
     align-items: center;
     justify-content: end;
-    background-color: aqua;
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    transition: 0.4s;
 }
 
 .title-header{
@@ -14,6 +17,7 @@ header{
     font-size: 1.5rem;
     font-weight: 800;
     padding: 15px 0 15px 15px;
+    color: var(--light-color);
 }
 
 .menu-btn{
@@ -21,6 +25,7 @@ header{
     border: none;
     background: none;
     cursor: pointer;
+    color:  var(--light-color);
 } 
 
 .menu-bar, .menu-bar::before, .menu-bar::after{
@@ -29,7 +34,7 @@ header{
     height: 2px;
     width: 26px;
     border-radius: 20px ;
-    background-color: black;
+    background-color: var(--light-color);
 }
 
 .menu-bar::before{
@@ -70,6 +75,9 @@ header{
     transform: rotate(-135deg);
 }
 
+.header{
+    border-radius: 0px;
+}
 
 /* .nav-search,
 .menu-icon {
@@ -84,30 +92,35 @@ header{
     width: 100vw;
     top: 10vh;
     right: 0;
-    height: 0px;
-    background-color: aquamarine;
+    height: 0;
+    background-color: var(--secondary-color);
     transition: 0.4s;
     visibility: hidden;
     overflow-y: hidden;
 }
 
 .menu-item a{
-    border-bottom: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid var(--light-color);
     display: flex;
     justify-content: center;
     padding: 20px 0;
     font-size: 1.2rem;
     width: 100vw;
-    color: black;
+    color: var(--light-color);
 }
 
 .menu-item:hover,
 .menu-item:active{
-    background-color: beige;
+    background-color: var(--light-color);
+}
+
+.menu-item:hover a,
+.menu-item:active a{
+    color: var(--secondary-color);
 }
 
 .nav-menu.active .menu-list {
-    height: 60vh;
+    height: 40vh;
     visibility: visible;
     overflow-y: auto;
     display: flex;

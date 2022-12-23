@@ -3,16 +3,15 @@
     bottom: 20px;
     height: 8vh;
     width: 270px;
-    margin: 10px;
-    font-weight: 900;
-    font-size: 20px;
+    margin: 10px 10px 15px;
     border-radius: 50px;
-    border: 2px solid blue;
-    color:black;
-    background-color: lightblue;
+    border: 1px solid var(--primary-color);;
+    background-color: var(--primary-color);
     cursor: pointer;
+    font-weight: 800;
+    font-size: 22px;
 }
 
-.button-fixed i {
-    font-weight: 900;
+.button-fixed a, i {
+    color: var(--light-color);
 }

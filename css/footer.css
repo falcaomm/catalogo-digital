@@ -1,9 +1,10 @@
 footer{
     height: 15vh;
     width: 100vw;
-    background-color: rgb(116, 63, 167);
+    background-color: var(--primary-color);
     display: grid;
     grid-template-rows: 2fr 1fr;
+    color: var(--light-color);
 }
 
 .footer-contact, 
@@ -16,9 +17,22 @@ footer{
 
 .footer-contact{
     font-size: 1.125rem;
-    background-color: blueviolet;
+    background-color:  var(--primary-color);
+    color: var(--light-color);
 }
+
+.footer-contact a, 
+.footer-contact i {
+    color: var(--secondary-color);
+}
+
 .footer-title{
     font-size: 1.25rem;
     padding-bottom: 10px;
+}
+
+.footer-signature a, 
+.footer-signature i {
+    color: var(--secondary-color);
+    font-weight: 700;
 }
