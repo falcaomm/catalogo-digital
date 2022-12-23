@@ -1,9 +1,12 @@
 .card-product{
-    background-color: yellow;
+    background-color: var(--light-color);
     display: flex;
     padding: 15px;
     align-items: center;
-    border-bottom: 1px solid rgb(0,0,0, 0.2);
+    /* border-bottom: 1px solid var(--primary-color); */
+    color: var(--primary-color);
+    border-radius: 10px;
+    margin-bottom: 8px;
 }
 .card-product img {
     justify-self: center;

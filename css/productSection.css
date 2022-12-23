@@ -1,9 +1,12 @@
 .product-section {
-    background-color: antiquewhite;
+    background-color: var(--secondary-color);
+    padding: 8px;
+    margin-bottom: 5px;
 }
 
 .product-section h2{
     font-weight: 800;
     font-size: 1.125rem;
     padding: 15px;
+    color: var(--light-color);
 }
