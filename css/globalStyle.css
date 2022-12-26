@@ -7,10 +7,9 @@
 } */
 
 :root{
-    --primary-color: #3f3832;
+    --primary-color: #FF6969;
+    --secondary-color: #3f3832;
     --light-color: #FFFFFF;
-    --secondary-color: #FF6969;
-    --color: #FFCB2D;
 }
 
 * {

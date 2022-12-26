@@ -6,10 +6,10 @@ header{
     width: 100vw;
     align-items: center;
     justify-content: end;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .title-header{
@@ -93,7 +93,7 @@ header{
     top: 10vh;
     right: 0;
     height: 0;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     transition: 0.4s;
     visibility: hidden;
     overflow-y: hidden;
@@ -116,7 +116,7 @@ header{
 
 .menu-item:hover a,
 .menu-item:active a{
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .nav-menu.active .menu-list {
