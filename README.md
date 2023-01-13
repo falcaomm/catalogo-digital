@@ -5,7 +5,7 @@
 <img src="#" alt="GIF de demonstração do projeto">
 </div>
 
-> Projeto em desenvolvimento de um catálogo digital em página unica a partir de layout autoral, sem utilização de frameworks, treinando conhecimentos de base adquiridos até o momento.
+> Projeto em desenvolvimento de um catálogo digital em página única a partir de layout autoral, sem utilização de frameworks, treinando conhecimentos de base adquiridos até o momento.
 > A ideia principal é desenvolver uma interface responsiva implementando algumas funcionalidades com JavaScript. 
 
 ## 💻 Tecnologias: 
