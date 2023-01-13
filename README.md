@@ -19,5 +19,5 @@
 - [x] Menu Hamburguer;
 - [x] Animação CSS;
 - [x] JavaScript para interação com usuário - DOM;
-- [ ] Barra de Pesquisa;
+- [ ] Responsividade;
 
