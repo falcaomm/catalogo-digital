@@ -2,9 +2,9 @@
 
 <div align="center">
   <div>
-<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/456311b3-96f9-43da-9351-4036d21795fe" alt="Imagem de demonstração do projeto" width="15%">
-<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/b04f494f-c080-43b0-8903-331b18319b5c" alt="Imagem de demonstração do projeto" width="15%">
-<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/456311b3-96f9-43da-9351-4036d21795fe" alt="Imagem de demonstração do projeto" width="15%">
+<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/456311b3-96f9-43da-9351-4036d21795fe" alt="Imagem de demonstração do projeto" height="300">
+<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/b04f494f-c080-43b0-8903-331b18319b5c" alt="Imagem de demonstração do projeto" height="300">
+<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/1fa0f109-2e5c-4e56-9786-8fd60f7a2033" alt="Imagem de demonstração do projeto" height="300">
   </div>
 <p><a href="https://catalogo-digital.netlify.app/">Clique aqui</a> para abrir no navegador<p/>
 </div>
