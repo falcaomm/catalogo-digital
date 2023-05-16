@@ -1,6 +1,11 @@
 #  Catálogo Digital 
 
 <div align="center">
+  <div>
+<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/456311b3-96f9-43da-9351-4036d21795fe" alt="Imagem de demonstração do projeto" width="15%">
+<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/456311b3-96f9-43da-9351-4036d21795fe" alt="Imagem de demonstração do projeto" width="15%">
+<img src="https://github.com/falcaomm/catalogo-digital/assets/108558119/456311b3-96f9-43da-9351-4036d21795fe" alt="Imagem de demonstração do projeto" width="15%">
+  </div>
 <p><a href="https://catalogo-digital.netlify.app/">Clique aqui</a> para abrir no navegador<p/>
 </div>
 
